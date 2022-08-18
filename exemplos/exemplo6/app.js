@@ -2,27 +2,29 @@ import express from "express";
 
 
 const app = express();
+app.set('view engine', 'ejs'); // configurando o renderizador a view engine com EJS
 
 // Configurando uma rota
 app.get('/', (req, res) => {
     // res.send('Eu amo Justin r');
-    res.render('paginas/index');
+    const bandas = ["CBJ", "Zimbra", "Justim Timberlake"];
+    res.render('paginas/index', {bandas});
 } ); 
 // rest é apoiado em verbos https
 
 // Executando o servidor 
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log('Servidor express rodando...')
 });
 
 
 app.get('/sobre', (req, res) => {
     // res.send('Sobre');
-    res.render('páginas/sobre')
+    res.render('paginas/sobre')
 });
 
 app.get('/contato', (req, res) => {
-    res.render('páginas/contato')
+    res.render('paginas/contato')
 });
 
 // A porta mais comum de se utilizar com node é a 3000
