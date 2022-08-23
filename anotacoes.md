@@ -16,4 +16,8 @@
 - Express: Express é um framework minimalista que permite levantar o servidor Node de forma mais simples, sem precisar requisitar o HTTP e o FileSystem na mão
 - EJS: ejs é uma extensão que permite renderizar JavaScript no HTML
 - Nodemon: Módulo que permite atualizar com mais facilidade as alterações do código sem precisar resetar o servidor
-- npm init: Comando que permite gerar arquivo Json através 
+- npm init: Comando que permite gerar arquivo Json através de perguntas
+- npm init y: cria arquivo json com configurações padrões sem as perguntas
+
+# Links úteis
+- reqbin: Testa api
