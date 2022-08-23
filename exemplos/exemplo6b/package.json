@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "servidor-express",
+  "version": "1.0.0",
+  "description": "subindo servidor usando express + nodemon + EJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adriel",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

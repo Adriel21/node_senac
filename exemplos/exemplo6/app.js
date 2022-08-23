@@ -7,7 +7,7 @@ app.set('view engine', 'ejs'); // configurando o renderizador a view engine com 
 // Configurando uma rota
 app.get('/', (req, res) => {
     // res.send('Eu amo Justin r');
-    const bandas = ["alo", "Zimbra", "Justim Timberlake"];
+    const bandas = ["CBJ", "Zimbra", "Justim Timberlake"];
     res.render('paginas/index', {bandas});
 } ); 
 // rest é apoiado em verbos https
